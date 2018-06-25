@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppTest</string>
+    <string name="app_name">UfcTestApp</string>
     <string name="suits_text">Свободные номера:</string>
     <string name="hotel_dist">Расстояние до центра - </string>
     <string name="sort_by_distance">Sort by Distance</string>
@@ -16,4 +16,10 @@
     <string name="sort_option_price">По цене</string>
     <string name="problem_text">Хьюстон, у нас проблемы !</string>
     <string name="retry_msg">ЕЩЕ РАЗ</string>
+    <string name="title_activity_starter">StarterActivity</string>
+    <string name="tab_text_1">WEIGHT CLASS</string>
+    <string name="tab_text_2">A-Z</string>
+    <string name="tab_text_3">RANKINGS</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>

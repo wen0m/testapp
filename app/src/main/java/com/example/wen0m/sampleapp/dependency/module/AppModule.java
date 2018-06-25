@@ -2,11 +2,10 @@ package com.example.wen0m.sampleapp.dependency.module;
 
 import android.app.Application;
 import android.content.Context;
-import android.content.SharedPreferences;
 
 import com.example.wen0m.sampleapp.dependency.NamedPreference;
 import com.example.wen0m.sampleapp.shared.Constans;
-import com.example.wen0m.sampleapp.utils.SharedPrefsUtil;
+import com.example.wen0m.sampleapp.shared.SharedPrefsUtil;
 
 import javax.inject.Singleton;
 import dagger.Module;
@@ -24,8 +23,7 @@ public class AppModule {
 
     @Provides
     @Singleton
-    public Context provideContext()
-    {
+    public Context provideContext() {
         return context;
     }
 
@@ -37,8 +35,7 @@ public class AppModule {
 
     @Provides
     @Singleton
-    public SharedPrefsUtil provideSharedPrefsUtil(Context context, @NamedPreference String key)
-    {
+    public SharedPrefsUtil provideSharedPrefsUtil(Context context, @NamedPreference String key) {
         return new SharedPrefsUtil(context, key);
     }
 

@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.wen0m.sampleapp.listing.HouseListingActivity">
+    tools:context="com.example.wen0m.sampleapp.ui.activities.HouseListingActivity">
 
     <group android:id="@+id/general_album_items">
         <item

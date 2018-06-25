@@ -1,0 +1,20 @@
+package com.example.wen0m.sampleapp.deprecated;
+
+
+import org.greenrobot.greendao.annotation.Entity;
+import org.greenrobot.greendao.annotation.Id;
+import org.greenrobot.greendao.annotation.Property;
+import org.greenrobot.greendao.annotation.Generated;
+
+@Deprecated
+//@Entity
+public class Region {
+
+    @Id
+    private long id;
+
+    @Property
+    private String name;
+
+
+}
